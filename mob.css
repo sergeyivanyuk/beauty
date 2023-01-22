@@ -76,6 +76,9 @@ header {
     padding-top: 20px;
 }
 
+.header-center .hdr-sm-text, .header-center .hdr-but{
+    display: none;
+}
 .hdr-text {
     width: 100%;
     font-size: 24px;
@@ -179,11 +182,18 @@ header {
     border-radius: 4px;
     margin: 10px;
 }
-
+/* 
 .work {
     padding-top: 60px;
     padding-bottom: 60px;
     display: none;
+} */
+
+
+
+.footer__item {
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 }
