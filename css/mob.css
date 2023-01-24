@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6{
 
 header {
     padding-top: 10px;
-    background: url(img/banner.jpg);
+    background: url("../img/banner.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -40,6 +40,12 @@ header {
     width: 100%;
     margin: 0 auto;
     text-align: center;
+}
+.logo-desct {
+    display: none;
+}
+.logo-mob {
+    display: block;
 }
 
 .logo img {
@@ -62,7 +68,7 @@ header {
     padding: 7px 10px;
     color: #fff;
     border-radius: 6px;
-    background: linear-gradient(17.79deg, #e55b94 9.67%, #ff3ab9 90.3%);
+    background: linear-gradient(17.79deg, #fcd51c 9.67%, #3e1703 90.3%);
     width: 180px !important;
     text-align: center;
     font-family: AvenirNextCyr-Light;
@@ -74,11 +80,9 @@ header {
 .header-center {
     width: 100%;
     padding-top: 20px;
-}
-
-.header-center .hdr-sm-text, .header-center .hdr-but{
     display: none;
 }
+
 .hdr-text {
     width: 100%;
     font-size: 24px;
@@ -116,7 +120,7 @@ header {
 
 .serv-title {
     font-family: cinzel_regular;
-    color: #2a2a2a;
+    color: #fff;
     font-weight: 900;
     font-size: 20px;
     text-align: left;
@@ -139,7 +143,7 @@ header {
     text-align: left;
     font-family: AvenirNextCyr-Light;
     padding-top: 5px;
-    background: url(img/lotus.png);
+    background: url("../img/lotus-gold.png");
     background-size: 15px;
     background-position: left top 12px;
     background-repeat: no-repeat;
@@ -147,7 +151,7 @@ header {
 }
 
 .offer {
-    background: url(img/offer.jpg);
+    background: url("../img/offer.jpg");
     background-size: cover;
     width: 100%;
     height: auto;
@@ -169,7 +173,7 @@ header {
     font-size: 15px;
     text-align: center;
     font-family: AvenirNextCyr-Light;
-    color: #2a2a2a;
+    color: #fff;
     font-weight: 900;
     line-height: 35px;
     padding-top: 30px;
