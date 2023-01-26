@@ -62,14 +62,16 @@ header {
     padding: 7px 10px;
     color: #fff;
     border-radius: 6px;
-    background: linear-gradient(17.79deg, #fcd51c 9.67%, #3e1703 90.3%);
+    background-color: #000;
     width: 180px !important;
     text-align: center;
     font-family: AvenirNextCyr-Light;
     cursor: pointer;
     margin-left: 0px;
     font-size: 15px;
+    border: 1px solid transparent;
 }
+
 
 .header-center {
     width: 100%;

@@ -95,9 +95,13 @@ header{
     cursor: pointer;
     margin-left: 40px;
     font-size: 15px;
+    transition: all .4s ease-in-out;
 }
 .header__but:hover {
-    background-color: #000;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+
 }
 .header-center{
     width: 100%;
@@ -109,12 +113,12 @@ header{
     font-size: 40px;
     font-family: cinzel_regular; 
     text-align: left;
-    color: #3e1703;
+    color: #831163;
 }
 
 .hdr-text span{
     font-family: cinzel_regular; 
-    color: #3e1703;
+    color: #831163;
     font-weight: 900;
 }
 
@@ -138,10 +142,12 @@ header{
     margin-left: 0px;
     margin-top: 10px;
     font-size: 15px;
+    border: 1px solid transparent;
 }
 .hdr-but:hover {
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
     transition: all .4s ease-in-out;
 }
 
@@ -158,10 +164,12 @@ header{
     margin-left: 0px;
     margin-top: 10px;
     font-size: 15px;
+    border: 1px solid transparent;
 }
 .hdr-but2:hover {
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
     transition: all .4s ease-in-out;
 }
 
@@ -204,7 +212,7 @@ header{
     font-family: AvenirNextCyr-Light;
     font-size: 13px;
     text-align: left;
-    color: #fcd51c;
+    color: #831163;
     font-weight: 500;
 }
 
@@ -241,7 +249,7 @@ header{
     font-family: AvenirNextCyr-Light;
     font-size: 13px;
     text-align: center;
-    color: #fcd51c;
+    color: #831163;
     font-weight: 900;
 }
 
@@ -260,7 +268,7 @@ header{
     padding: 7px 10px;
     color: #fff;
     border-radius: 6px;
-    background: linear-gradient(17.79deg, #fcd51c 9.67%, #3e1703 90.3%);
+    background-color: #000;
     width: 180px !important;
     text-align: center;
     font-family: AvenirNextCyr-Light;
@@ -269,8 +277,13 @@ header{
     font-size: 15px;
     position: relative;
     top: 20px;
+    border: 1px solid transparent;
 }
-
+.abt-but:hover {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+}
 
 /* Gallery */
 .gallery{
@@ -286,7 +299,7 @@ header{
     font-family: AvenirNextCyr-Light;
     font-size: 13px;
     text-align: center;
-    color: #fcd51c;
+    color: #831163;
     font-weight: 900;
 }
 
@@ -309,7 +322,7 @@ header{
 /* Slider */
 
 :root {
-    --swiper-theme-color: #fcd51c;
+    --swiper-theme-color: #831163;
 }
 
 .swiper {
@@ -320,7 +333,7 @@ header{
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: rgb(144, 84, 0);
+    background: #FFB8EB;
 
     /* Center slide text vertically */
     display: -webkit-box;
@@ -338,7 +351,7 @@ header{
   }
 
   .swiper-button-next, .swiper-button-prev {
-    color:#fcd51c;
+    color:#831163;
   }
 
 
@@ -357,7 +370,7 @@ header{
     font-family: AvenirNextCyr-Light;
     font-size: 13px;
     text-align: center;
-    color: #e86a9f;
+    color: #831163;
     font-weight: 900;
 }
 
@@ -556,6 +569,10 @@ a.footer__item:hover .right p{
     text-decoration: none;
     color: #fff;
 }
+.hdr-but:hover .offer-b {
+    color: #000;
+    transition: all .4s ease-in-out;
+}
 
 .services-mob{
     display: none;
@@ -569,14 +586,14 @@ a:hover {
     color:rgb(255, 255, 255);
 }
 .menu-link {
-    text-decoration: none;
-    color: #451c06;
+    text-decoration: 1px solid transparent;
+    color: #831163;
     transition: all .4s ease-in-out;
 }
 .menu-link:hover {
     text-decoration: underline;
-    text-decoration-color:#fcd800;
-    color:#fcd800;
+    text-decoration-color:#831163;
+    color: #831163;
 }
 .offer-b:hover {
      color: #fff;
@@ -617,7 +634,7 @@ a:hover {
 }
 
 .Mymodal {
-    background-color: rgb(144, 84, 0);
+    background-color: #831163;
     color: #000;
     margin: 0 auto;
     width: 320px;
