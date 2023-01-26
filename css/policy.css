@@ -1,0 +1,9 @@
+* {
+    text-align: center;
+}
+.policy__title {
+    text-transform: uppercase;
+}
+.policy__title__unl {
+    text-decoration: underline;
+}

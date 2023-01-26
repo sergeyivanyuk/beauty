@@ -525,17 +525,25 @@ a.footer__item:hover .right p{
 .copyright{
     padding-top: 20px;
     padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
-.copyright p{
+.copyright p, .policy{
     font-size: 15px;
     font-family: AvenirNextCyr-Light;  
     margin: 0 auto;
     text-align: center;  
     font-weight: 900; 
+    color: #fff;
 }
-
+.policy {
+    text-decoration: underline;
+}
+.policy:hover {
+    color: blue;
+}
 .offer{
     background: url(../img/offer.jpg);
     background-size: cover;
