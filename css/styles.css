@@ -10,7 +10,7 @@ body{
     position: relative;
     margin: auto;
     padding:0;
-    background: rgb(144, 84, 0);
+    background: #FFB8EB;
     color: #fff;
 }
 
@@ -88,7 +88,7 @@ header{
     padding: 7px 10px;
     color: #fff;
     border-radius: 6px;
-    background: linear-gradient(17.79deg, #fcd51c 9.67%, #3e1703 90.3%);
+    background-color: #000;
     width: 180px !important;
     text-align: center;
     font-family: AvenirNextCyr-Light;
@@ -97,7 +97,7 @@ header{
     font-size: 15px;
 }
 .header__but:hover {
-    background: linear-gradient(17.79deg, #3e1703  9.67%, #fcd51c 90.3%);
+    background-color: #000;
 }
 .header-center{
     width: 100%;
@@ -128,9 +128,9 @@ header{
 
 .hdr-but {
     padding: 7px 10px;
-    color: #000;
+    color: #fff;
     border-radius: 6px;
-    background: linear-gradient(17.79deg, #3e1703  9.67%, #fcd51c 90.3%);
+    background-color: #000;
     width: 180px !important;
     text-align: center;
     font-family: AvenirNextCyr-Light;
@@ -138,11 +138,10 @@ header{
     margin-left: 0px;
     margin-top: 10px;
     font-size: 15px;
-    background-color: transparent;
 }
 .hdr-but:hover {
     color: #fff;
-    background: linear-gradient(17.79deg, #fcd51c 9.67%, #3e1703 90.3%);
+    background-color: #000;
     transition: all .4s ease-in-out;
 }
 
@@ -151,7 +150,7 @@ header{
     padding: 7px 10px;
     color: #fff;
     border-radius: 6px;
-    background: linear-gradient(17.79deg, #fcd51c 9.67%, #3e1703 90.3%);
+    background-color: #000;
     width: 180px !important;
     text-align: center;
     font-family: AvenirNextCyr-Light;
@@ -162,7 +161,7 @@ header{
 }
 .hdr-but2:hover {
     color: #fff;
-    background: linear-gradient(17.79deg, #3e1703 9.67%, #fcd51c 90.3%);
+    background-color: #000;
     transition: all .4s ease-in-out;
 }
 
@@ -626,7 +625,6 @@ a:hover {
     max-height: 600px;
     padding: 10px;
     border-radius: 3px;
-    overflow-y: scroll;
 }
 .Mymodal__close {
     display: flex;
@@ -690,4 +688,7 @@ a:hover {
 .Mymodal__list--item__title--pink {
     text-decoration: underline;
     color: #3e1703;
+}
+.Mymodal__open--btn__refill {
+    cursor: pointer;
 }
